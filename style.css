@@ -25,6 +25,10 @@ body {
   color: #644536;
   text-align: center;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1, h2, h3 {
