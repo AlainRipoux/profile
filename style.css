@@ -1,0 +1,88 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: Overpass;
+  background-color: #f9ebc88d;
+  color: #644536;
+  text-align: center;
+  padding: 25px;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+  color: #0C0A3E;
+}
+
+li {
+  display: inline;
+}
+
+ul{
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 950px;
+  margin: auto
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 25px auto;
+  border-radius: 8px;
+  border: 1.5px solid #EAEAEA
+}
+
+.fa-brands {
+  font-size: 3em;
+}
+
+.btn {
+  background-color: #f9ebc88d;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 1.5px solid #EAEAEA
+}
+
+.btn:hover {
+  border: 1.5px solid #888888;
+  background-color: #f9ebc8ac;
+}
