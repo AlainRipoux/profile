@@ -24,7 +24,6 @@ body {
   background-color: #f9ebc88d;
   color: #644536;
   text-align: center;
-  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +71,8 @@ a:hover {
   padding: 10px;
   margin: 25px auto;
   border-radius: 8px;
-  border: 1.5px solid #EAEAEA
+  border: 1.5px solid #EAEAEA;
+  width: 80%;
 }
 
 .fa-brands {
