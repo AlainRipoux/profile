@@ -1,20 +1,20 @@
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
-  .card {
+  .container {
     width: 700px;
   }
 }
 
 @media (max-width: 720px) {
   /* Pour un écran < 720px, cette classe CSS s'applique */
-  .card {
+  .container {
     width: 500px;
   }
 }
 
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
-  .card {
+  .container {
     width: 300px;
   }
 }
@@ -24,8 +24,8 @@ body {
   background-color: #f9ebc88d;
   color: #644536;
   text-align: center;
+  padding: 25px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .card {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   margin: 25px auto;
   border-radius: 8px;
